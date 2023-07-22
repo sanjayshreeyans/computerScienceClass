@@ -14,12 +14,12 @@ public class PostOffice {
         int cost;
 
         // Prompt for mass in grams
-        System.out.print("Please enter the mass of the letter in gr: ");
+        System.out.print("Please enter the mass of the letter in grams: ");
 
         // Store mass
         double mass = sc.nextDouble();
 
-        // Caluclate cost based on mass
+        // Calculate cost based on mass
         if (mass >= 100) {
             // If mass is greater than 100 grams
             // cost is 95

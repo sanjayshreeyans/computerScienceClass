@@ -30,7 +30,7 @@ public class FractionToDecimalCoverter {
             // Else, the fraction is not a zero
             double decimal = numerator / denominator;
             System.out.print(numerator + " / " + denominator + " = ");
-            System.out.printf("%.3f", decimal);
+            System.out.printf("%.3", decimal);
             
         }
 

@@ -8,12 +8,12 @@ public class Rounding {
 
         // Square root of a real number
         double x = 25;
-        System.out.println("Square root of x =" Math.sqrt(x));
+        System.out.println("Square root of x =" + Math.sqrt(x));
 
         // Power of a number
         // Calculate 2^5
 
-        System.out.println(math.pow(2,5));
+        System.out.println(Math.pow(2,5));
 
         //  Round numbers
         double y = 2.67;

@@ -19,7 +19,7 @@ public class Calculations2 {
 
         // Prompt the user to enter the first number
         System.out.print("Enter the first number: ");
-    double firstNumber = input.nextDouble();
+        double firstNumber = input.nextDouble();
 
         // Pr
         System.out.print("Enter the second number: ");

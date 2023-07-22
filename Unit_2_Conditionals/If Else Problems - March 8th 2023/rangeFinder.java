@@ -15,6 +15,8 @@ public class rangeFinder {
         // Prompt the user to enter 3 numbers
         System.out.println("Enter the numbers: ");
 
+        // Math.random to generate a number between 1 and 6
+        int rand1 = (int)(Math.random() * 6 + 1);
         int firstInt = sc.nextInt();
         int SecondInt = sc.nextInt();
         int ThirdInt = sc.nextInt();
